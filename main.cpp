@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-using namespace stdl;
+using namespace std;
 
 int main() {
     return 0;
