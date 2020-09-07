@@ -5,6 +5,7 @@
 using namespace std;
 
 string reverseString(string word) {
+    string newWord = "";
     char c_reverseString[word.size() + 1];
     strcpy(c_reverseString,word.c_str());
     int lastEllementReverseString = sizeof(c_reverseString) - 2;
