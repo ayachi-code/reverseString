@@ -10,12 +10,13 @@ string reverseString(string word) {
     strcpy(c_reverseString,word.c_str());
     int lastEllementReverseString = sizeof(c_reverseString) - 2;
     for (int i = lastEllementReverseString; i >= 0; i--) {
-        cout << c_reverseString[i] << endl;
+        newWord.push_back(c_reverseString[i]);
     };
-    return "test";
+    cout << newWord << endl;
+    return newWord;
 }
 
 int main() {
-    reverseString("Hallo");
+    reverseString("Hallo maat");
     return 0;
 }
